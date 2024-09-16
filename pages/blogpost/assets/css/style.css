@@ -19,7 +19,12 @@ header{
     height: 4rem;
     width: 16.25;
 }
-.header-logo img{
+.header-logo h1{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.header-logo h1 img{
     width: 100%;
     height: 100%;
 }
