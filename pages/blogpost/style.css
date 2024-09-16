@@ -1,0 +1,43 @@
+@import url('../global/global.css');
+@import url('../global/header.css');
+@import url('../global/footer.css');
+
+/*! ================  GLOBAL ====================*/
+.container{
+    width: 75rem;
+    margin: auto;
+}
+
+/*! ================  BANNER ====================*/
+.banner{
+    height: 38.75rem;
+    background-image: url('./imgs/Banner-Blog.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    display: flex;
+}
+.banner-container{
+    width: 36.188rem;
+    color: var(--branco);
+}
+
+#banner-heading{
+    padding: 0;
+    margin: 0;
+    font-size: 2.5rem;
+}
+.banner-container p{
+    font-size: 2rem;
+}
+
+.banner-container div div{
+    border: 2px solid var(--vermelho);
+    width: 11.25rem;
+    margin-top: 1rem;
+}
+
+
+
+

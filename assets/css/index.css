@@ -23,7 +23,7 @@
 
 .cabecalho__navegacao--lista {
     display: flex;
-    gap: 8px;
+    gap: 2.5rem;
     flex-wrap: wrap;
 }
 
@@ -33,13 +33,18 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    cursor: pointer;
+}
+
+.banner__img-wrapper {
+    margin: 0;
 }
 
 .banner__img {
     max-width: 100%;
 }
 
-.banner__descricao {
+.banner__img-descricao {
     max-width: 1200px;
     color: var(--grafite, #222);
     text-align: center;
@@ -145,6 +150,7 @@ img {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 0;
 }
 
 .ofertas__card--preco {
