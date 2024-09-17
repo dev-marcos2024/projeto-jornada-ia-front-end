@@ -40,8 +40,23 @@ header{
     font-size: 1.5rem;
 }
 .header-menu ul li a:hover{
-    border-bottom: 4px solid rgb(112, 77, 2);
+    border-bottom: 4px solid var(--vermelho);
 }
 .header-menu ul li a:focus{
-    border-bottom: 4px solid rgb(112, 77, 2);
+    border-bottom: 4px solid var(--vermelho);
+}
+.header-logo-reduzido{
+    display: none;
+}
+.header-logo-reduzido h1{
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+    margin: 0;
+}
+.header-logo-reduzido h1 a img{
+    width: 100%;
+}
+.header-menu-amburger{
+    display: none;
 }
