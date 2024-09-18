@@ -1,5 +1,5 @@
 footer{
-    height: 14.5rem;
+    min-height: 14.5rem;
     background-color: var(--preto);
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ footer{
     max-width: 8.125rem;
 }
 .footer-logo img{
-    max-width: 100%;
+    width: 100%;
 }
 .footer-contacts p{
     line-height: 0;
@@ -32,4 +32,7 @@ footer{
     display: flex;
     justify-content: center;
     gap: .5rem;
+}
+#social-media-heading-none{
+    display: none;
 }

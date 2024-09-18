@@ -24,6 +24,9 @@ img{
     width: 100%;
     height: 100%;
 }
+[href="#"]{
+    border-bottom: 4px solid var(--vermelho);
+}
 
 /*! ================  BANNER ====================*/
 .banner{
@@ -55,6 +58,9 @@ img{
 }
 #banner-heading{
     font-size: 3rem;
+}
+main{
+    display: flex;
 }
 
 /*! ================  SECTION TOKYO ====================*/
@@ -169,13 +175,83 @@ img{
 }
 
 
-/*! ================  Versao responsiva tablet 768px ====================*/
+/*! ================  Versao responsiva tablet 425px ====================*/
 
 @media (max-width: 425px) {
     .container{
-        width: 19rem;
+        max-width: 19rem;
         margin: auto;
+        width: 100%;
     }
 
+    .header-menu{
+        display: none;
+    }
 
+    .header-menu-amburger{
+        display: flex;
+    }
+    .banner{
+        display: flex;
+        align-items: center;
+        max-height: 28.75rem;
+        min-height: 0;
+        padding: 2.5rem 0;
+    }
+    .banner .container{
+        margin-top: 0;
+        margin-bottom: 0;
+        align-items: center;
+        max-height: 23.625rem;
+    }
+    .banner-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        gap: 2rem;
+        padding: 2.5rem 0;
+    }
+    .banner-container h3{
+        margin: 0;
+    }
+    .banner-container p{
+        font-size: 1.25rem;
+        line-height: 2rem;
+        margin: 0;
+    }
+    article{
+        height: auto;
+    }
+    .tokyo-chegada{
+        flex-direction: column;
+        max-height: 45.625rem;
+    }
+
+    .tokyo-acomodacao div img{
+        height: 17rem;
+    }
+
+    footer{
+        max-height: 21.75rem;
+        min-height: 21.75rem;
+    }
+    footer .container{
+        height: 17.75rem;
+    }
+    .footer-container{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+    }
+    .footer-contacts p{
+        line-height: 1.75rem;
+        text-align: center;
+        margin: 0;
+    }
+    .footer-logo img{
+        width: 10.115rem;
+    }
 }
