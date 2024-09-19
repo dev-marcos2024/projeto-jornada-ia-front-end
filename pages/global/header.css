@@ -62,3 +62,7 @@ header{
 .header-menu-amburger{
     display: none;
 }
+
+.header-menu [href="#"]{
+    border-bottom: 4px solid var(--vermelho);
+}

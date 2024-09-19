@@ -6,8 +6,8 @@
 .container{
     max-width: 75rem;
     margin: auto;
-    padding: 0 2rem;
     box-sizing: content-box;
+    width: 100%;
 }
 
 input , textarea{
@@ -15,10 +15,6 @@ input , textarea{
     border: none;
     outline: none;
     font-size: 1.25rem;
-}
-
-[href="#"]{
-    border-bottom: 4px solid var(--vermelho);
 }
 
 /*! ================  BANNER ====================*/

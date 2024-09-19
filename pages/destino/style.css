@@ -44,6 +44,7 @@ h2{
     width: 100%;
     display: flex;
     flex-direction: column;
+    gap: 2rem;
 }
 
 .banner-container p{
@@ -285,9 +286,6 @@ footer{
     }
     .img-footer{
         min-height: 25rem;
-    }
-    .banner-container{
-        gap: 2rem;
     }
     .banner-container p{
         font-size: 1.5rem;
