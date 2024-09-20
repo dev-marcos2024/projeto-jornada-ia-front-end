@@ -1,41 +1,8 @@
-.cabecalho__container {
-    background: var(--preto);
-    width: 100%;
-    padding: 40px 0;
-}
+@import url('../../pages/global/header.css');
+@import url('../../pages/global/footer.css');
 
-.cabecalho {
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
-.cabecalho__logo--icone {
-    max-width: 260px;
-}
-
-.cabecalho__navegacao {
-    display: flex;
-    gap: 40px;
-}
-
-.cabecalho__navegacao--lista {
-    display: flex;
-    gap: 2.5rem;
-    flex-wrap: wrap;
-}
-
-.cabecalho__navegacao--item a {
-    color: var(--branco);
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    cursor: pointer;
-}
-
+/*!==================> BANNER <====================*/
 .banner__img-wrapper {
     margin: 0;
 }
@@ -332,50 +299,114 @@ span.material-symbols-outlined {
     margin-bottom: 8px;
 }
 
-.footer__container {
-    background: var(--preto);
+.container{
+    max-width: 75rem;
     width: 100%;
-    padding: 40px 0;
-    margin-top: -4px;
 }
 
-.footer {
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    color: var(--branco, #FFF);
+
+/*! ================>  FOOTER <====================*/
+
+.img-footer{
+    background-image: url('./imgs/Imagem-footer.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 37.5rem;
+    margin-top: 6.5rem;
+}
+footer{
+    margin-top: 0;
 }
 
-.footer__logo-icon {
-    max-width: 160px;
-    margin-bottom: 16px;
+/*! ================>  RESPONSIVIDADE <====================*/
+
+@media (max-width: 1024px) {
+    .container{
+        padding: 0 2rem;
+        height: 100%;
+    }
 }
 
-.footer__info-container {
-    display: flex;
+
+/*! ================>  TABLET <====================*/
+
+@media (max-width: 768px) {
+    .container, .grid{
+        padding: 0;
+        max-width: 40.5rem;
+    }
+    .header-menu{
+        display: none;
+    }
+    .header-menu-amburger{
+        display: flex;
+    }
+    [href="#"]{
+        border: none;
+    }
+   .banner__img{
+        height: 38.75rem;
+   }
+   .ofertas__cards--item{
+    width: 19.5rem;
+   }
+ 
+   .busca__categorias{
+    flex-flow: row wrap;
+   }
+   .busca__categoria{
+     height: 13.75rem;
+     min-width: 19.3rem;
+   }
+   .destinos__lista{
     flex-direction: column;
-    gap: 16px;
+    gap: 2.5rem;
+   }
+   .destinos__item--image{
+    max-height: 28.25rem;
+   }
+   .pagamento__condicoes{
+        flex-direction: column;
+   }
+   .depoimentos__wrapper{
+        flex-direction: column;
+   }
+   .pre-footer__image{
+        height: 25rem;
+   }
+   footer{
+    max-height: 18.75rem;
+    min-height: 18.75rem;
+    padding: 2rem 0;
+   }
+   footer .container {
+        height: 100%;
+    }
+   .footer-container{
+    height: 100%;
+   }
 }
 
-.footer__text-info {
-    color: var(--neutral-c, #F5F5F5);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; /* 160% */
+/*! ================>  SMART PHONE <====================*/
+
+@media (max-width: 425px) {
+    .container, .grid{
+        padding: 1rem;
+    }
+    .header-logo{
+        display: none;
+    }
+    .header-logo-reduzido{
+        display: flex;
+    }
+    
+    .banner__img{
+        max-height: 25rem;
+   }
 }
 
-.footer__social-media-container {
-    text-align: center;
-}
-
-.footer__social-media-text {
-    color: var(--neutral-c, #F5F5F5);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    margin-bottom: 16px;
+@media (max-width: 320px) {
+    .container{
+        padding: 0 2rem;
+    }
 }

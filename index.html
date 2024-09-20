@@ -18,22 +18,26 @@
 
 <body>
     
-    <header class="cabecalho__container">
-        <div class="cabecalho">
-            <a href="" class="cabecalho__logo">
-                <img class="cabecalho__logo--icone" alt="Logo da Jornada" src="./assets/img/logoprovisriabranca-1@2x.png" />
-            </a>
-            <nav class="cabecalho__navegacao" role="navigation" aria-label="Navegação principal">
-                <ul class="cabecalho__navegacao--lista">
-                    <li class="cabecalho__navegacao--item">
-                        <a href="./pages/blogpost/index.html">Blog</a>
-                    </li>
-                    <li class="cabecalho__navegacao--item">
-                        <a href="./pages/destino/index.html">Pacotes de viagem</a>
-                    </li>
-                    <li class="cabecalho__navegacao--item">
-                        <a href="./pages/contato/index.html">Contato</a>
-                    </li>
+    <header>
+        <div class="header-container container " aria-label="Main menu">
+
+            <div class="header-logo">
+                <h1><a href="#"><img src="./assets/img/logoprovisriabranca-1@2x.png" alt="Logotipo da Jornada"></a></h1>
+            </div>
+
+            <div class="header-logo-reduzido">
+                <h1><a href="../../index.html"><img src="./assets/img/Logo-provisória-reduzida.png" alt="Logotipo da Jornada"></a></h1>
+            </div>
+
+            <div class="header-menu-amburger">
+                <a href="#"><img src="./assets/img/menu.png" alt="Menu de amburger"></a>
+            </div>
+
+            <nav class="header-menu">
+                <ul>
+                    <li><a href="./pages/blogpost/index.html">Blog</a></li>
+                    <li><a href="./pages/destino/index.html">Pacote de viagem</a></li>
+                    <li><a href="./pages/contato/index.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -304,35 +308,37 @@
 
     <img class="pre-footer__image" alt="" src="./assets/img/pre-footer-image.png" />
     
-    <div class="footer__container">
-        <div class="footer">
-            <div class="footer__logo-container">
-                <img class="footer__logo-icon" alt="" src="./assets/img/logobranco-1@2x.png" />
-                <div class="footer__info-container">
-                    <div class="footer__text-info">
-                        Horário de atendimento: 08h - 20h (Segunda a Sábado)
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+
+                <div class="footer-contacts">
+                    <div class="footer-logo">
+                        <img src="./assets/img/logoprovisriabranca-1@2x.png" alt="Logotipo da Jornada">
                     </div>
-                    <div class="footer__text-info">
-                        Desenvolvido por Alura. Projeto fictício sem fins comerciais.
+                    <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+                    <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+                </div>
+        
+                <section aria-labelledby="social-media-heading">
+                    <h3 id="social-media-heading">Conecte-se conosco nas redes sociais:</h3>
+                    <h3 id="social-media-heading-none">Acesse nossas redes:</h3>
+                    <div class="social-midia">
+                        <a href="https://wa.me/XXXX" aria-label="Converse pelo Whatsapp">
+                            <img src="./assets/img/whatsapp-1.svg" alt="Ícone do Whatsapp">
+                        </a>
+                        <a href="https://www.instagram.com/XXXX" aria-label="Nosso Instagram">
+                            <img src="./assets/img/instragam-1.svg" alt="Ícone do Instagram">
+                        </a>
+                        <a href="https://twitter.com/XXXX" aria-label="Nosso Twitter">
+                            <img src="./assets/img/twiter-1.svg" alt="Ícone do Twitter">
+                        </a>
                     </div>
-                </div>
-            </div>
-            <div class="footer__social-media-container">
-                <div class="footer__social-media-text">Acesse nossas redes:</div>
-                <div class="footer__social-media-icons">
-                    <a href="">
-                        <img class="footer__social-media-icon" alt="" src="./assets/img/whatsapp-1.svg" />
-                    </a>
-                    <a href="">
-                        <img class="footer__social-media-icon" alt="" src="./assets/img/instragam-1.svg" />
-                    </a>
-                    <a href="">
-                        <img class="footer__social-media-icon" alt="" src="./assets/img/twiter-1.svg" />
-                    </a>
-                </div>
+                </section>
+
             </div>
         </div>
-    </div>
+    </footer>
 
 
 </body>
