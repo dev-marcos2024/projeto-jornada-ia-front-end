@@ -27,8 +27,24 @@ img{
 [href="#"]{
     border-bottom: 4px solid var(--vermelho);
 }
+.menu-oucuto{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.836);
+    width: 20rem;
+    display: none;
+}
+.menu-oucuto ul {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    justify-content: start;
+}
 
 /*! ================  BANNER ====================*/
+
 .banner{
     max-height: 38.75rem;
     min-height: 38.75rem;
@@ -38,11 +54,13 @@ img{
     background-position: center;
     box-sizing: border-box;
     display: flex;
+    position: relative;
 }
 
 .banner-container{
     color: var(--branco);
     width: 100%;
+   
 }
 
 .banner-container p{

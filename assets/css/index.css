@@ -3,6 +3,23 @@
 
 
 /*!==================> BANNER <====================*/
+.banner{
+    position: relative;
+}
+.menu-oucuto{
+    background-color: rgba(0, 0, 0, 0.753);
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 3rem;
+    display: none;
+}
+.menu-oucuto ul li{
+    list-style: none;
+}
+.menu-oucuto ul{
+    flex-direction: column;
+}
 .banner__img-wrapper {
     margin: 0;
 }
