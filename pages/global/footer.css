@@ -26,6 +26,7 @@ footer{
 }
 .footer-contacts p{
     line-height: 0;
+    color: var(--branco);
 }
 
 .social-midia{

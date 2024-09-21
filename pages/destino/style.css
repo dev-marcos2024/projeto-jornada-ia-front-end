@@ -239,6 +239,7 @@ footer{
     }
     .header-menu-amburger{
         display: flex;
+        cursor: pointer;
     }
     [href="#"]{
         border: none;
@@ -273,7 +274,7 @@ footer{
 
 @media (max-width: 425px) {
     .container, .grid{
-        padding: 1rem;
+        padding: 0 2rem;
     }
     .header-logo{
         display: none;

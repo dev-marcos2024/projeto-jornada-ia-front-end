@@ -3,22 +3,29 @@
 
 
 /*!==================> BANNER <====================*/
-.banner{
+.baner__container__img{
+    height: 38.75rem;
+    background-image: url('../img/maldivas@2x.png');
     position: relative;
+    background-size: cover;
+    background-position: center;
 }
 .menu-oucuto{
     background-color: rgba(0, 0, 0, 0.753);
     position: absolute;
     right: 0;
     top: 0;
+    bottom: 0;
     padding: 3rem;
     display: none;
+    width: 20rem;
 }
 .menu-oucuto ul li{
     list-style: none;
 }
 .menu-oucuto ul{
     flex-direction: column;
+    justify-content: start;
 }
 .banner__img-wrapper {
     margin: 0;
@@ -26,6 +33,7 @@
 
 .banner__img {
     max-width: 100%;
+    height: 100%;
 }
 
 .banner__img-descricao {
@@ -39,10 +47,7 @@
     margin: 110px auto;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 
 .ofertas {
     margin-bottom: 112px;
@@ -161,6 +166,11 @@ img {
     font-weight: 700;
     line-height: 32px;
     color: var(--branco, #FFF);
+}
+
+.ofertas__card--destino{
+    flex-direction: column;
+    background-color: transparent;
 }
 
 .busca__categorias {
@@ -319,6 +329,7 @@ span.material-symbols-outlined {
 .container{
     max-width: 75rem;
     width: 100%;
+    margin: auto;
 }
 
 
@@ -407,8 +418,8 @@ footer{
 /*! ================>  SMART PHONE <====================*/
 
 @media (max-width: 425px) {
-    .container, .grid{
-        padding: 1rem;
+    .container{
+        padding:0 2rem;
     }
     .header-logo{
         display: none;
@@ -422,8 +433,3 @@ footer{
    }
 }
 
-@media (max-width: 320px) {
-    .container{
-        padding: 0 2rem;
-    }
-}

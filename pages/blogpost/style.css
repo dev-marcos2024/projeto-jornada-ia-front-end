@@ -163,11 +163,16 @@ main{
         max-width: 40.5rem;
         width: 100%;
     }
-    .header-logo{
+
+    .header-menu{
         display: none;
     }
-    .header-logo-reduzido{
+    .header-menu-amburger{
         display: flex;
+        cursor: pointer;
+    }
+    [href="#"]{
+        border: none;
     }
     .posts-cards{
         flex-direction: column;
